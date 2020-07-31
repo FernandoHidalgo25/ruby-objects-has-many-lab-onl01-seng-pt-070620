@@ -11,7 +11,7 @@ class Post
     @@all
   end
 
-  def author_name
+  def author_title
     if author == nil
       nil
     else
